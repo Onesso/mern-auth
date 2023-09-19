@@ -1,0 +1,18 @@
+SECTION 1 INSTALLING REACT AND TAILWIND CSS
+
+SECTION 2 PAGES AND ROUTERS AND HEADER COMPONENTS
+    Add routes and create PAGES
+    create header component
+
+SECTION 3 CREATE SERVER AND CONNECT TO THE DATABASE
+    CREATE AND RUN THE SERVER
+in creating the server we run a 'npm i express' in the root folder so that the front-end can run on the backend; here the express runs once.
+'npm i nodemon' this makes the express to be always running.
+
+under package.json script is changed to  
+ "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+
+  therefore the server will be always active and listing to port
