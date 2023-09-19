@@ -18,8 +18,11 @@ under package.json script is changed to
   therefore the server will be always active and listing to port
 
     CONNECT TO THE DATABASE
+'npm i mongoose' must be run in the root project to install mongoose in our application.
 sign up into mangodb and create a project
 connect to the database using the driver
 copy the connection string and add it into the code (index.js) that was created under the api folder
 a .env file is created in the root for sucurity purpose while sharing the code, in this file a variable is created MONGO and the connection string is stored there, the MONGO is later passsed in the index.js 
 'npm i dotenv' this package is installed to enable the .env to work
+    CREATE USER MODEL
+the user model is created and exported as default so that it can be used in any other part of the application
